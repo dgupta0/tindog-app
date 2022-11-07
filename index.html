@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tindog</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Smythe&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <img id="profile" src="images/icon-profile.png" alt="profile-pic">
+            <img id="logo" src="images/logo.png" alt="logo-icon">
+            <img id="chat" src="images/icon-chat.png" alt="chat-box">
+        </header>
+        <section>
+            <div id="display">
+                <div id="dog-info">
+                    <img class="avatar" src="images/dog-rex.jpg" alt="dog-rex">
+                    <div class="info">
+                        <h2>Rex, 25</h2>
+                        <p>Art. Literature. Natural wine. Yoga</p>
+                    </div>
+                </div>
+                <div class="badges">
+                    <img class="badges badge-like" id="badge-like" src="images/badge-like.png">
+                    <img class="badges badge-no" id="badge-no" src="images/badge-nope.png">
+                </div>
+            </div>
+            <div id="interaction">
+                <button id="like"><img id="like-img" class="btn-icon" src="images/icon-heart.png"
+                        alt="like-btn"></button>
+                <button id="dislike"><img id="no-img" class="btn-icon" src="images/icon-cross.png"
+                        alt="dislike-btn"></button>
+            </div>
+        </section>
+    </main>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>

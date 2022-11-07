@@ -1,0 +1,117 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #E5E5E5;
+}
+
+main {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 28px 5px #888888;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+section {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+#display {
+    position: relative;
+    height: 85%;
+}
+
+img {
+    margin: 10px;
+}
+
+#logo {
+    width: 84px;
+    height: 42px;
+}
+
+#chat,
+#profile {
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+#dog-info img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+.info {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    font-size: larger;
+}
+
+
+.info p {
+    font-weight: lighter;
+}
+
+.badges img {
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    width: 160px;
+    height: 80px;
+    transform: rotate(-20deg);
+}
+
+#interaction {
+    height: 15%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button {
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border: 1px solid #e9e9ea;
+    cursor: pointer;
+}
+
+#like:hover {
+    background-color: #DBFFF4;
+}
+
+#dislike:hover {
+    background-color: #FFE7EF;
+}
+
+.last-message {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+
+}
